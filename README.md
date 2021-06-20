@@ -1,6 +1,6 @@
 # Clock
 
-challenge number 2: basic clock using **CSS** and **JavaScript
+challenge number 2: basic clock using **CSS** and \*\*JavaScript
 
 ## Acknowledgement
 
