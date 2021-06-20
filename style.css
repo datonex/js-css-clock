@@ -40,4 +40,9 @@ body {
   background: black;
   position: absolute;
   top: 50%;
+  transform-origin: 100%; /* allow clock to rotate from the center of the clock as pivot*/
+  transform: rotate(90deg); /* rotate clock hands so that they fave 12 o'clock*/
+  transition: all 0.05s;
+  /* When run transition has backtick */
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
